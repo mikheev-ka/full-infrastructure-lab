@@ -19,11 +19,11 @@
 
 | Хостнейм | IP-адрес | ОС | Роль / Сервисы | Ссылка на репозиторий |
 | :--- | :--- | :--- | :--- | :--- |
-| **DC01** | 10.0.2.15 (WAN)<br>192.168.200.10 (LAN) | Windows Server | Шлюз (NAT), Active Directory, DNS, DHCP | 👉 [windows-infra-lab]([ССЫЛКА_НА_РЕПО](https://github.com/mikheev-ka/windows-infra-lab)) |
-| **LINUX-ZABBIX-01** | 192.168.200.30 | Ubuntu 24.04 | Сервер мониторинга Zabbix, PostgreSQL | 👉 [zabbix-ubuntu]([ССЫЛКА_НА_РЕПО](https://github.com/mikheev-ka/zabbix-ubuntu)) |
-| **LINUX-NEXTCLOUD** | 192.168.200.31 | Ubuntu 24.04 | Облачное хранилище (LEMP + SSL) | 👉 [nextcloud-lemp]([ССЫЛКА_НА_РЕПО](https://github.com/mikheev-ka/nextcloud-lemp)) |
-| **LINUX-GRAFANA** | 192.168.200.32 | Ubuntu 24.04 | Визуализация метрик Prometheus | 👉 [monitoring-stack]([ССЫЛКА_НА_РЕПО](https://github.com/mikheev-ka/monitoring-stack)) |
-| **LINUX-PROMETHEUS** | 192.168.200.33 | Ubuntu 24.04 | Сбор метрик (Prometheus Server) | 👉 [monitoring-stack]([ССЫЛКА_НА_РЕПО](https://github.com/mikheev-ka/monitoring-stack)) |
+| **DC01** | 10.0.2.15 (WAN)<br>192.168.200.10 (LAN) | Windows Server | Шлюз (NAT), Active Directory, DNS, DHCP | 👉 [windows-infra-lab](https://github.com/mikheev-ka/windows-infra-lab) |
+| **LINUX-ZABBIX-01** | 192.168.200.30 | Ubuntu 24.04 | Сервер мониторинга Zabbix, PostgreSQL | 👉 [zabbix-ubuntu](https://github.com/mikheev-ka/zabbix-ubuntu) |
+| **LINUX-NEXTCLOUD** | 192.168.200.31 | Ubuntu 24.04 | Облачное хранилище (LEMP + SSL) | 👉 [nextcloud-lemp](https://github.com/mikheev-ka/nextcloud-lemp) |
+| **LINUX-GRAFANA** | 192.168.200.32 | Ubuntu 24.04 | Визуализация метрик Prometheus | 👉 [monitoring-stack](https://github.com/mikheev-ka/monitoring-stack) |
+| **LINUX-PROMETHEUS** | 192.168.200.33 | Ubuntu 24.04 | Сбор метрик (Prometheus Server) | 👉 [monitoring-stack](https://github.com/mikheev-ka/monitoring-stack) |
 | **LINUX-NODE-1** | 192.168.200.34 | Ubuntu 24.04 | Целевой хост (Node Exporter, Zabbix Agent) | *(Настраивается в рамках стеков)* |
 | **LINUX-NODE-2** | 192.168.200.35 | Ubuntu 24.04 | Целевой хост (Node Exporter, Zabbix Agent) | *(Настраивается в рамках стеков)* |
 
