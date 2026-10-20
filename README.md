@@ -51,23 +51,23 @@
 
 Инфраструктура разделена на логические блоки. Для развертывания переходите по ссылкам:
 
-### 1. [windows-infra-lab](ССЫЛКА)
+### 1. [windows-infra-lab](https://github.com/mikheev-ka/windows-infra-lab)
 *Поднятие базовой инфраструктуры.*
 Включает настройку Windows Server в качестве шлюза (RRAS), создание домена `lab.local`, настройку зон прямого/обратного просмотра DNS и авторизацию DHCP-сервера.
 
-### 2. [nextcloud-lemp](ССЫЛКА)
+### 2. [nextcloud-lemp](https://github.com/mikheev-ka/nextcloud-lemp)
 *Корпоративное облако.*
 Развертывание стека Nginx + MariaDB + PHP 8.3. Настройка самоподписанного SSL-сертификата и конфигурация Trusted Domains для доступа к файлам внутри локальной сети.
 
-### 3. [monitoring-stack](ССЫЛКА)
+### 3. [monitoring-stack](https://github.com/mikheev-ka/monitoring-stack)
 *Сбор и визуализация метрик.*
 Установка Prometheus (на `.33`) и Grafana (на `.32`). Развертывание `node_exporter` на целевых хостах и импорт готовых дашбордов (ID: 1860).
 
-### 4. [zabbix-ubuntu](ССЫЛКА)
+### 4. [zabbix-ubuntu](https://github.com/mikheev-ka/zabbix-ubuntu)
 *Классический мониторинг.*
 Развертывание Zabbix Server 7.0 LTS с PostgreSQL. Настройка Zabbix Agent на клиентах с использованием шифрования PSK (Pre-Shared Key).
 
-### 5. [vbox-cisco_scheme](ССЫЛКА)
+### 5. [vbox-cisco_scheme](https://github.com/mikheev-ka/vbox-cisco_scheme)
 *Сетевая абстракция.*
 Эмуляция текущей архитектуры в Cisco Packet Tracer. Показывает принципы маршрутизации, NAT и сегментации сети при переносе виртуальной инфраструктуры на реальное сетевое оборудование.
 
