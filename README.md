@@ -40,7 +40,7 @@
 | **Домашний роутер (Dlink)** | Выход в интернет (WAN) | Маршрутизатор `ISR4331` (NAT/PAT) |
 | **VirtualBox NAT** | Трансляция адресов гипервизора | Маршрутизатор `ISR4331` (NAT/PAT) |
 | **Windows Server (DC01)** | Шлюз LAN, DHCP, DNS | Маршрутизатор `ISR4331` (NAT, DHCP Pool, DNS Server) |
-| **Host-Only Adapter** | Изолированная виртуальная сеть | Мультислойный коммутатор `Multilayer Switch 3560` (VLAN 1) |
+| **Host-Only Adapter** | Изолированная виртуальная сеть | L3-коммутатор `Multilayer Switch 3560` (VLAN 1) |
 | **Виртуальные машины (Linux)** | Клиенты внутренней сети | Устройства `Server-PT` (получение IP по DHCP) |
 
 Подробные конфигурации Cisco IOS (настройка интерфейсов, ACL, NAT, DHCP) смотри в **[vbox-cisco_scheme]([ССЫЛКА_НА_РЕПО](https://github.com/mikheev-ka/vbox-cisco_scheme))**.
